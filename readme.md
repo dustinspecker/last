@@ -14,6 +14,7 @@ module AwesomeModule where
 
 import Last
 
+Last.fromList [] -- Nothing
 Last.fromList [ 1 ] -- Just 1
 Last.fromList [ "yo", "hello" ] -- Just "hello"
 ```

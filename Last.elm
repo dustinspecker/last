@@ -9,7 +9,7 @@ module Last (fromList) where
 
 {-| Get the last element from a List.
 
-    last [] -- Maybe.Nothing
+    last [] -- Nothing
     last [ 1 ] -- Just 1
     last [ "yo", "hello" ] -- Just "hello"
 
