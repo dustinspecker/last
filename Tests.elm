@@ -2,7 +2,6 @@ module Tests (..) where
 
 import ElmTest exposing (..)
 import Last
-import Maybe
 
 
 all : Test
@@ -11,7 +10,7 @@ all =
     "Last"
     [ defaultTest
         (assertEqual
-          Maybe.Nothing
+          Nothing
           (Last.fromList [])
         )
     , defaultTest

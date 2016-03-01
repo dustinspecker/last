@@ -6,9 +6,6 @@ module Last (fromList) where
 @docs fromList
 -}
 
-import List
-import Maybe
-
 
 {-| Get the last element from a List.
 
