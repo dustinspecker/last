@@ -1,4 +1,4 @@
-# Last [![Build Status](https://travis-ci.org/dustinspecker/last.svg?branch=master)](https://travis-ci.org/dustinspecker/last)
+# Last [![Build Status](https://travis-ci.org/dustinspecker/last.svg?branch=master)](https://travis-ci.org/dustinspecker/last) [![Elm Docs](https://img.shields.io/badge/elm-docs-brightgreen.svg)](http://package.elm-lang.org/packages/dustinspecker/last/latest)
 > Get the last element from a List.
 
 ## Install
