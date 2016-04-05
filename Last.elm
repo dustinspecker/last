@@ -15,13 +15,5 @@ module Last (fromList) where
 
 -}
 fromList : List a -> Maybe a
-fromList list =
-  case List.length list of
-    0 ->
-      Maybe.Nothing
+fromList = List.foldl (\a b -> Maybe.Just a) Maybe.Nothing
 
-    1 ->
-      List.head list
-
-    _ ->
-      fromList (Maybe.withDefault [] (List.tail list))
