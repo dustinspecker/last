@@ -15,5 +15,5 @@ module Last (fromList) where
 
 -}
 fromList : List a -> Maybe a
-fromList = List.foldl (\a b -> Maybe.Just a) Maybe.Nothing
-
+fromList =
+  List.foldl (\a b -> Maybe.Just a) Maybe.Nothing
